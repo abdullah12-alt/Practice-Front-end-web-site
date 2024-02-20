@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(197, 211, 218);
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+   
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 50px 40px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#nav h2,h3,h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#content{
+    padding: 40px 60px;
+    margin-top: 60px;
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    font-size: 170px;
+    font-weight: 600;
+    line-height: 160px;
+    margin-top: 30px;
+    letter-spacing: -5px;
+}
+#case h4{
+    font-size: 30px;
+    
+}
+#case{
+    display: flex;
+  
+    justify-content: space-between;
+  
+    padding: 50px 60px;
+  
+}
+#right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8%;
+
+}
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+
+#img2{
+    background-image:url("https://i.pinimg.com/736x/b5/7d/58/b57d58f086d22f2a42e775ae0f901374.jpg") ;
+}#img1{
+    background-image:url("https://cdn.vectorstock.com/i/1000x1000/87/66/gold-diamond-vector-828766.webp") ;
+}
+.element .elem-img{
+ 
+    height: 500px;
+    background-color: red;
+    border-radius: 50px;
+}
+#project{
+display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.element {
+    width: 40%;
+    
+}
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.buttom i{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 22px;
+}
+.buttom i:hover{
+   background-color: black;
+   color: white;
+}
